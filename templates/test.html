@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturday Talks!</title>
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="shortcut icon" href="" />
+    <style>
+        .navbar {
+            font-family: 'Montserrat';
+            font-size: 20px;
+            background-color: black;
+        }
+        
+        .marginbottom {
+            margin-top: 20%;
+        }
+        
+        .container {
+            margin-top: 7%;
+        }
+    </style>
+</head>
+
+<body>
+    
+
+    <div class="container d-flex h-100">
+        <div class="row align-self-center w-100">
+            <div class="col-6 mx-auto">
+
+                
+
+                    <div class="panel panel-info">
+                        
+                        <div class="panel-heading">
+                            <h1 class="display-2 text-light text-center text-uppercase"
+                        style="font-family: 'Fredoka One';font-size: 32px;">Saturday Talks!</i></b></h1>
+                            <div class="panel-title text-center" style="font-family: 'Fredoka One';">Get registered in
+                                this community!</div>
+                        </div>
+
+                        <div style="padding-top:30px" class="panel-body">
+
+                            <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+
+                            <form id="loginform" action="/registered" method="POST" class="form-horizontal" role="form">
+
+                                <div style="margin-bottom: 25px" class="text-center input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    
+                                    <input style="font-family: 'Fredoka One'; width: 50%; text-align: center;" id="login-username" type="text"
+                                        class="text-center form-control" name="Name" value="" placeholder="Your Name 😎" required>
+                                </div>
+
+
+
+
+                                <div style="margin-top:10px" class="form-group">
+                                    <!-- Button -->
+
+                                    <div class="col-sm-12 controls text-center">
+                                        <button id="btn-fblogin" href="#" class="text-center btn btn-primary"
+                                            style="font-family: 'Fredoka One';" type="submit">Submit your name</button>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <div class="col-md-12 control">
+                                        <div class="text-center"
+                                            style="border-top: 1px solid#888; padding-top:15px; font-size:85%">
+                                            Glad you're here! Thanks for being in 😉 Just submit your name and get
+                                            started!
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
